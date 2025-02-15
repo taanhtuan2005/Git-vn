@@ -20,4 +20,9 @@ git checkout -b {branch name}   tạo 1 nhánh mới
 git merge {branch name}         ghép nối các branch
 git branch -d {branch name}     xóa đi 1 branch
 git push                        
-git remote add {name } link github thay tên đường dẫn link github = name
+git remote add {tên} link github thay tên đường dẫn link github = tên
+git pull
+git push -u tên {branch name}
+git clone {repo url}
+git fetch tên
+git checkout -b {branch name} tên/{branch name}
